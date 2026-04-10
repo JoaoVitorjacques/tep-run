@@ -17,7 +17,7 @@ const segundos=document.getElementById("segundos")
 const botao=document.getElementById("botaoInscricao")
 
 
-const dataLiberacao=new Date("apr 10, 2026 12:50:59").getTime()
+const dataLiberacao=new Date("apr 10, 2026 12:55:59").getTime()
 
 
 const contador=setInterval(()=>{
