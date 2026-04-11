@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TEP TRAIL RUN</title>
+<title>Trilha de Obstáculos</title>
 
 <link rel="stylesheet" href="style.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 </head>
@@ -17,76 +15,114 @@
 <body>
 
 <div id="loader">
-<h1>INICIANDO MISSÃO....</h1>
+<h1>INICIANDO MISSÃO...</h1>
 </div>
+
+<!-- BOTÃO (COMEÇA ESCONDIDO) -->
+<button id="botaoInscricao">INSCREVA-SE AGORA</button>
 
 <div class="overlay">
 
-<header>
+<header class="reveal">
 
 <img src="img/logo.png" class="logo">
 
 <h1>TRILHA DE OBSTÁCULOS</h1>
 
-<p class="frase">
-Você está pronto para o desafio?
-</p>
+<p class="frase">Supere seus limites na trilha mais insana da região</p>
 
 </header>
 
-<section class="contador-area">
+<section class="contador-area reveal">
 
-<h2>INSCRIÇÕES ABREM EM</h2>
+<h2>FALTAM PARA A PROVA</h2>
 
 <div class="contador">
 
-<div class="tempo">
-<span id="dias">0</span>
-<p>DIAS</p>
-</div>
-
-<div class="tempo">
-<span id="horas">0</span>
-<p>HORAS</p>
-</div>
-
-<div class="tempo">
-<span id="minutos">0</span>
-<p>MIN</p>
-</div>
-
-<div class="tempo">
-<span id="segundos">0</span>
-<p>SEG</p>
-</div>
+<div class="tempo"><span id="dias">0</span><p>DIAS</p></div>
+<div class="tempo"><span id="horas">0</span><p>HORAS</p></div>
+<div class="tempo"><span id="minutos">0</span><p>MIN</p></div>
+<div class="tempo"><span id="segundos">0</span><p>SEG</p></div>
 
 </div>
 
-<button id="botaoInscricao">
-FAZER INSCRIÇÃO
-</button>
-
-</section>
-
-<section class="info">
-
-<div class="card">
-🏃 Corrida com obstáculos
-</div>
-
-<div class="card">
-🔰 Estilo militar
-</div>
-
-<div class="card">
-🌿 Trilha na natureza
-</div>
-
-<div class="card">
-🏅 Premiação especial
+<div class="barra-tempo">
+<div id="progressoTempo"></div>
 </div>
 
 </section>
+
+<section class="info reveal">
+<h2>INFORMAÇÕES</h2>
+<p>📅 17 de Maio de 2026</p>
+<p>📍 Araçoiaba - PE</p>
+<p>⏰ Largada às 07h</p>
+</section>
+
+<section class="valor reveal">
+<h2>INSCRIÇÃO</h2>
+<p class="preco">R$ 60,00</p>
+<p>Inclui kit completo + participação na prova.</p>
+</section>
+
+<section class="kit reveal">
+<h2>KIT DO ATLETA</h2>
+
+<div class="kit-container">
+
+<div class="kit-item">
+<img src="img/camisa.png">
+<p>Camisa oficial</p>
+</div>
+
+<div class="kit-item">
+<img src="img/medalha.png">
+<p>Medalha exclusiva</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="prova reveal">
+<h2>A PROVA</h2>
+<p>🏃 Distância: 4km</p>
+<p>🔥 Dificuldade: Média/Alta</p>
+<p>⁉️ Obstáculos naturais + artificiais</p>
+</section>
+
+<section class="transporte reveal">
+<h2>TRANSPORTE OFICIAL</h2>
+
+<p>A organização disponibilizará ônibus para os atletas.</p>
+
+<ul>
+<li>🚌 Saída: Praça do Maria Gayão</li>
+<li>⏰ Horário: 05:30</li>
+<li>⚠️ Vagas limitadas</li>
+</ul>
+
+</section>
+
+<section class="regulamento reveal">
+<h2>REGULAMENTO</h2>
+
+<p>
+O atleta declara estar apto fisicamente para participar da prova.
+A organização não se responsabiliza por problemas de saúde durante o evento.
+</p>
+
+</section>
+
+<section class="contato reveal">
+<h2>CONTATO</h2>
+<p>📸 Instagram: @TEPTROPAELITEPACE</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<p>Designed & Developed by <span>@05.vitor</span></p>
+</footer>
 
 </div>
 
